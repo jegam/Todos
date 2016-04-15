@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp">
+
+        <CheckBox
+            android:id="@+id/Select_CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="false"/>
+
+        <TextView
+            android:id="@+id/notes_TextView"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Notes"
+            android:padding="5dp"
+            android:textColor="@color/Black"/>
+
+        <TextView
+            android:id="@+id/edit_TextView"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edit"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/delete_TextView"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/delete"
+            android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
